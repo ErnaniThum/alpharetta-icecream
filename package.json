@@ -1,0 +1,35 @@
+{
+  "name": "alpharettaicecream",
+  "version": "1.0.0",
+  "description": "App that presents the top five ice scream places in Alpharetta",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_PATH=src nodemon --inspect=9230 .",
+    "dev-brk": "cross-env NODE_PATH=src nodemon --inspect-brk=9230 .",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErnaniThum/AlpharettaIceCream.git"
+  },
+  "author": "Ernani Vinicius Thum <ernani.thum@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErnaniThum/AlpharettaIceCream/issues"
+  },
+  "homepage": "https://github.com/ErnaniThum/AlpharettaIceCream#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^1.19.4"
+  }
+}

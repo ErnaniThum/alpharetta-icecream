@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "cross-env NODE_PATH=src nodemon --inspect=9230 .",
     "dev-brk": "cross-env NODE_PATH=src nodemon --inspect-brk=9230 .",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "start": "cross-env NODE_PATH=src node ."
   },
   "repository": {
     "type": "git",

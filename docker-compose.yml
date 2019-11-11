@@ -1,0 +1,9 @@
+version: "3.3"
+services:
+  ice-cream-app:
+    build: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+
